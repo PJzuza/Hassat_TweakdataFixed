@@ -3,7 +3,7 @@
 	"description" : "A large amount of super-small 5second fixes that take Overkill over a year in some instances to fix (it's SO hard hitting backspace twice, that surely warrants a 1.5 year fixspan!). So since it's obviously not that the complexity prevents them, they just don't care. So here I'll fix some of them instead for them. Considering they don't want me to update this (getting no Paydaymods account for auto-update, since Overkill rather doesn't want me fixing their shit) and I don't really care anymore for their company as a whole, I'll release this as is, rather than have the work be gone to waste. It's fairly unlikely that this will be kept up-to-date, but it should be good for a while as it's unlikely that Overkill will fix any of these any time soon.",
 	"author" : "Hassat Hunter",
 	"contact" : "Steam forums",
-	"version" : "5.1",
+	"version" : "5.2",
 	"blt_version" : 2,
 	"hooks" : [
 		{ "hook_id" : "lib/tweak_data/levelstweakdata", "script_path" : "levelstweakdata.lua" },
@@ -27,6 +27,7 @@
 		{ "hook_id" : "lib/tweak_data/weapontweakdata", "script_path" : "weapontweakdata.lua" },
 		{ "hook_id" : "lib/managers/achievement/cac_customachievements", "script_path" : "cac_customachievements.lua" },
 		{ "hook_id" : "lib/managers/localizationmanager", "script_path": "Base.lua"},
+		{ "hook_id" : "lib/managers/localizationmanager", "script_path": "Update_Those_Mods.lua"},
 		{ "hook_id" : "lib/tweak_data/CustomSafehouseTweakData", "script_path" : "CustomSafehouseTweakData.lua" },
 		{ "hook_id" : "lib/tweak_data/blackmarket/maskstweakdata", "script_path" : "maskstweakdata.lua" }
 	],
