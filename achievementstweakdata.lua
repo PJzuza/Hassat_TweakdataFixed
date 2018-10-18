@@ -29,6 +29,11 @@ function AchievementsTweakData:init(...)
 		"mia_2",
 		"mia2_new"
 	}
+	self.enemy_melee_hit_achievements.rvd_12.job = nil
+	self.enemy_melee_hit_achievements.rvd_12.levels = {
+		"rvd1",
+		"rvd2"
+	}
 	self.enemy_melee_hit_achievements.cac_6.job = nil
 	self.enemy_melee_hit_achievements.cac_6.level_id = "rvd2"
 	self.enemy_melee_hit_achievements.cac_25.job = nil
