@@ -27,6 +27,7 @@
 		{ "hook_id" : "lib/tweak_data/weapontweakdata", "script_path" : "weapontweakdata.lua" },
 		{ "hook_id" : "lib/managers/achievement/cac_customachievements", "script_path" : "cac_customachievements.lua" },
 		{ "hook_id" : "lib/managers/localizationmanager", "script_path": "Base.lua"},
+		{ "hook_id" : "lib/managers/localizationmanager", "script_path": "Update_Those_Mods.lua"},
 		{ "hook_id" : "lib/tweak_data/CustomSafehouseTweakData", "script_path" : "CustomSafehouseTweakData.lua" },
 		{ "hook_id" : "lib/tweak_data/blackmarket/maskstweakdata", "script_path" : "maskstweakdata.lua" }
 	],
