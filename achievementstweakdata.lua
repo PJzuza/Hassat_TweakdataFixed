@@ -17,7 +17,20 @@ function AchievementsTweakData:init(...)
 		"brb",
 		"tag",
 		"des",
-		"sah"
+		"sah",
+		"bph",
+		"vit"
+	}
+	self.job_list.classic = {
+		"red2",
+		"dinner",
+		"pal",
+		"man",
+		"flat",
+		"run",
+		"glace",
+		"dah",
+		"nmh"
 	}
 	self.man_5.job = nil
 	self.man_5.level_id = "man"
@@ -38,6 +51,7 @@ function AchievementsTweakData:init(...)
 	self.enemy_melee_hit_achievements.cac_6.level_id = "rvd2"
 	self.enemy_melee_hit_achievements.cac_25.job = nil
 	self.enemy_melee_hit_achievements.cac_25.level_id = "red2"
+	self.enemy_melee_hit_achievements.bph_9.level_id = "bph"
 	self.fire_in_the_hole.grenade = {
 		"frag",
 		"frag_com",
@@ -117,7 +131,8 @@ function AchievementsTweakData:init(...)
 		"man",
 		"run",
 		"glace",
-		"dah"
+		"dah",
+		"nmh"
 	}
 	self.complete_heist_achievements.daily_fwtd.job = nil
 	self.complete_heist_achievements.daily_fwtd.level_id = "red2"
