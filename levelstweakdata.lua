@@ -8,4 +8,6 @@ function LevelsTweakData:init(...)
 	self.spa.max_bags = 8
 	self.fish.max_bags = 20
 	self.vit.ghost_bonus = 0.15
+	self.cage.ghost_bonus = 0.01
+	self.cage.ghost_required = true
 end
