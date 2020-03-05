@@ -505,4 +505,58 @@ function NarrativeTweakData:init(...)
 		26000,
 		26000
 	}
+	self.jobs.bph.contract_visuals.min_mission_xp = {
+		17000,
+		17000,
+		17000,
+		18000,
+		18000,
+		18000,
+		18000
+	}
+	self.jobs.bph.contract_visuals.max_mission_xp = {
+		17000,
+		17000,
+		17000,
+		18000,
+		18000,
+		18000,
+		18000
+	}
+	self.jobs.nmh.contract_visuals.min_mission_xp = {
+		27000,
+		27000,
+		27000,
+		27000,
+		27000,
+		27000,
+		27000
+	}
+	self.jobs.nmh.contract_visuals.max_mission_xp = {
+		53000,
+		53000,
+		53000,
+		53000,
+		53000,
+		53000,
+		53000
+	}
+	self.jobs.vit.contract_visuals.min_mission_xp = {
+		17000,
+		17000,
+		17000,
+		17000,
+		17000,
+		17000,
+		17000
+	}
+	self.jobs.vit.contract_visuals.max_mission_xp = {
+		40000,
+		40000,
+		40000,
+		40000,
+		40000,
+		40000,
+		40000
+	}
 end

@@ -19,18 +19,22 @@ function AchievementsTweakData:init(...)
 		"des",
 		"sah",
 		"bph",
-		"vit"
+		"vit",
+		"mex",
+		"mex_cooking"
 	}
-	self.job_list.classic = {
-		"red2",
-		"dinner",
-		"pal",
-		"man",
-		"flat",
-		"run",
-		"glace",
-		"dah",
-		"nmh"
+	self.job_list.vlad = {
+		"ukrainian_job_prof",
+		"mallcrasher",
+		"four_stores",
+		"nightclub",
+		"pines",
+		"shoutout_raid",
+		"jolly",
+		"cane",
+		"peta",
+		"moon",
+		"bex"
 	}
 	self.man_5.job = nil
 	self.man_5.level_id = "man"
@@ -162,36 +166,6 @@ function AchievementsTweakData:init(...)
 		"tag_team",
 		"pocket_ecm_jammer"
 	}}
-	self.complete_heist_achievements.trophy_stealth.jobs = {
-		"gallery",
-		"nightclub",
-		"ukrainian_job_prof",
-		"four_stores",
-		"jewelry_store",
-		"family",
-		"roberts",
-		"branchbank_prof",
-		"branchbank_gold_prof",
-		"branchbank_cash",
-		"branchbank_deposit",
-		"arm_for",
-		"election_day",
-		"kosugi",
-		"big",
-		"hox_3",
-		"arena",
-		"red2",
-		"crojob1",
-		"firestarter",
-		"kenaz",
-		"mus",
-		"framing_frame",
-		"dark",
-		"friend",
-		"fish",
-		"tag",
-		"sah"
-	}
 	self.complete_heist_achievements.challenge_geneva.job = nil
 	self.complete_heist_achievements.challenge_geneva.level_id = "red2"
 	self.complete_heist_achievements.cac_5.job = nil
@@ -219,14 +193,4 @@ function AchievementsTweakData:init(...)
 	self.four_mask_achievements.brb_10.level_id = "brb"
 	self.loot_cash_achievements.dah_9.job = nil
 	self.loot_cash_achievements.dah_9.level_id = "dah"
-	self.four_mask_achievements.ghost_riders.masks = {
-		"skullhard",
-		"skullveryhard",
-		"skulloverkill",
-		"skulloverkillplus",
-		"gitgud_e_wish",
-		"gitgud_sm_wish",
-		"dnm",
-		"ggac_od_t2"
-	}
 end

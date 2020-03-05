@@ -35,7 +35,8 @@ function AssetsTweakData:_init_risk_assets(...)
 		"hvh",
 		"tag",
 		"bph",
-		"vit"
+		"vit",
+		"bex"
 	}
 	self.risk_swat.exclude_stages = {
 		"safehouse",
@@ -50,7 +51,8 @@ function AssetsTweakData:_init_risk_assets(...)
 		"hvh",
 		"tag",
 		"bph",
-		"vit"
+		"vit",
+		"bex"
 	}
 	self.risk_fbi.exclude_stages = {
 		"safehouse",
@@ -65,7 +67,8 @@ function AssetsTweakData:_init_risk_assets(...)
 		"hvh",
 		"tag",
 		"bph",
-		"vit"
+		"vit",
+		"bex"
 	}
 	self.risk_death_squad.exclude_stages = {
 		"safehouse",
@@ -80,7 +83,8 @@ function AssetsTweakData:_init_risk_assets(...)
 		"hvh",
 		"tag",
 		"bph",
-		"vit"
+		"vit",
+		"bex"
 	}
 	self.risk_easy_wish.exclude_stages = {
 		"safehouse",
@@ -95,7 +99,8 @@ function AssetsTweakData:_init_risk_assets(...)
 		"hvh",
 		"tag",
 		"bph",
-		"vit"
+		"vit",
+		"bex"
 	}
 	self.risk_death_wish.exclude_stages = {
 		"safehouse",
@@ -110,7 +115,8 @@ function AssetsTweakData:_init_risk_assets(...)
 		"hvh",
 		"tag",
 		"bph",
-		"vit"
+		"vit",
+		"bex"
 	}
 	self.risk_sm_wish.exclude_stages = {
 		"safehouse",
@@ -125,7 +131,8 @@ function AssetsTweakData:_init_risk_assets(...)
 		"hvh",
 		"tag",
 		"bph",
-		"vit"
+		"vit",
+		"bex"
 	}
 end
 	
